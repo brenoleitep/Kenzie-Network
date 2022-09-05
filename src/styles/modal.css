@@ -1,0 +1,101 @@
+.body__header {
+    background-color: var(--grey1);
+    width: 100%;
+    height: 72px;
+    z-index: 1;
+    position: fixed;
+}
+
+.body__header nav {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.body__header nav h1 {
+    color: var(--whiteFixed);
+}
+
+.body__header nav button {
+   background-color: var(--grey2);
+   padding: 8px;
+   border-radius: 4px;
+   position: relative;
+}
+
+.body__header nav div {
+    display: flex;
+    width: 35%;
+    gap: 10px;
+    position: fixed;
+    right: 35px;
+    max-width: 120px;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.modal__login {
+    margin-top: 0%;
+    max-width: 461px;
+    height: 426px;
+    background-color: var(--grey1);
+    color: var(--whiteFixed);
+}
+
+.form__button--cadastre {
+    background-color: var(--whiteFixed);
+    color: var(--grey0);
+    border-radius: 4px;
+    border: 1px solid var(--brand1);
+}
+
+.modal__cadastro {
+    max-width: 461px;
+    margin-top: -500%;
+    justify-content: center;
+    position: absolute;
+    background-color: var(--grey1);
+    color: var(--whiteFixed);
+}
+
+.form__button--register {
+    background-color: var(--brand1);
+    color: var(--whiteFixed);
+    border-radius: 4px;
+}
+
+.showModal {
+    margin-top: 0%;
+    font-size: 14px;
+}
+
+.closeModal {
+    margin-top: -500%;
+}
+
+@media (min-width: 768px) {
+    .body__header nav div {
+        position: relative;
+    }
+
+    .modal__login {
+        transition: 800ms;
+    }
+
+    .modal__cadastro {
+        transition: 800ms;
+    }
+}

@@ -1,0 +1,43 @@
+.inputDefault {
+    max-width: 100%;
+    max-height: 52px;
+    border-radius: 4px;
+    padding: 16px 20px 16px 20px;
+    color: var(--grey0);
+    border: 2px solid var(--grey4);
+}
+
+.inputDefault::placeholder {
+    font-size: 16px;
+}
+
+.inputDefault:active {
+    max-width: 100%;
+    max-height: 52px;
+    border-radius: 4px;
+    padding: 16px 20px 16px 20px;
+    color: var(--grey0);
+    border: 2px solid var(--brand1);
+}
+
+.textAreaDefault {
+    max-height: 130px;
+    max-width: 300px;
+    border-radius: 4px;
+    padding: 28px 21px 29px 21px;
+    color: var(--grey4);
+    border-radius: var(--grey4 );
+}
+
+.textAreaDefault::placeholder {
+    font-size: 16px;
+}
+
+.textAreaDefault:active {
+    max-height: 130px;
+    max-width: 300px;
+    border-radius: 4px;
+    padding: 28px 21px 29px 21px;
+    color: var(--grey4);
+    border-radius: var(--brand1  );
+}

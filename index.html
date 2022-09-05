@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/buttons.css">
+    <link rel="stylesheet" href="/src/styles/colors.css">
+    <link rel="stylesheet" href="/src/styles/component.css">
+    <link rel="stylesheet" href="/src/styles/fonts.css">
+    <link rel="stylesheet" href="/src/styles/inputs.css">
+    <link rel="stylesheet" href="/src/styles/global.css">
+    <link rel="stylesheet" href="/src/styles/modal.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <script defer type="module" src="./src/scripts/index.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <title>Rede Social</title>
+</head>
+
+<body>
+    <header class="body__header">
+        <nav>
+            <h1 class="title2">BrenoGram</h1>
+            <div class="nav__log">
+                <button class="nav__btnLogin">Login</button>
+                <button class="nav__btnCadastro">Cadastro</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="modal modal__login">
+            <h2 class="title2">Login</h2>
+
+            <form>
+                <input type="text" placeholder="Seu e-mail"
+                    class="inputDefault .inputDefault::placeholder .inputDefault:active form__inputLog--email">
+                <input type="password" placeholder="Sua senha"
+                    class="inputDefault .inputDefault::placeholder .inputDefault:active form__inputLog--pass">
+                <button class="text1 form__button form__button--login">Logar</button>
+
+                <span class="text1 callCadastre">Ainda não possui cadastro</span>
+
+                <button class="text1 form__button form__button--cadastre">Ir para página de registro</button>
+            </form>
+        </div>
+
+        <div class="modal modal__cadastro">
+            <h2 class="title2">Cadastrar</h2>
+
+            <form>
+                <input type="email" placeholder="Seu e-mail"
+                    class="inputDefault .inputDefault::placeholder .inputDefault:active form__inputCad--email">
+                <input type="text" placeholder="Seu nome"
+                    class="inputDefault .inputDefault::placeholder .inputDefault:active form__inputCad--name">
+                <input type="password" placeholder="Sua senha"
+                    class="inputDefault .inputDefault::placeholder .inputDefault:active form__inputCad--pass">
+                <input type="text" placeholder="Qual o seu trabalho?"
+                    class="inputDefault .inputDefault::placeholder .inputDefault:active form__inputCad--work">
+                <input type="text" placeholder="URL da imagem do perfil"
+                    class="inputDefault .inputDefault::placeholder .inputDefault:active form__inputCad--url">
+                <button class="text1 form__button form__button--register form__button--cadastre">Registrar</button>
+
+                <span class="text1 span__makeLog">Já possui login?</span>
+
+                <button class="text1 form__button form__button--cadastre form__button--cadastreLog">Ir para página de
+                    Login</button>
+            </form>
+        </div>
+
+    </main>
+
+</body>
+
+</html>

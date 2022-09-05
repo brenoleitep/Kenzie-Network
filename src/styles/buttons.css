@@ -1,0 +1,73 @@
+.buttonPrimary {
+    background-color: var(--brand1);
+    border: 2px solid var(--brand1);
+    color: var(--whiteFixed);
+    font-size: 14px;
+}
+
+.buttonGrey1 {
+    background-color: var(--grey1);
+    color: var(--whiteFixed);
+    font-size: 14px;
+}
+
+.buttonGrey1:active {
+    background-color: var(--grey1);
+    color: var(--whiteFixed);
+    font-size: 14px;
+}
+
+.buttonGrey1:hover {
+    color: var(--whiteFixed);
+    font-size: 14px;
+    background-color: var(--grey0);
+}
+
+.buttonWhiteFixed {
+    font-size: 14px;
+    color: var(--grey0);
+    background-color: var(--whiteFixed);
+}
+
+.buttonWhiteFixed:hover {
+    font-size: 14px;
+    color: var(--grey0);
+    background-color: var(--grey5);
+}
+
+.buttonMediumOutline {
+    background-color: var(--whiteFixed);
+    font-size: 14px;
+    color: var(--grey0);
+    border: 1px solid (var(--grey0));
+}
+
+.buttonMediumOutline:hover {
+    background-color: var(--whiteFixed);
+    font-size: 14px;
+    color: var(--brand1);
+    border: 1px solid (var(--brand1));
+}
+
+.buttonMediumOutline:active {
+    background-color: var(--brand1);
+    color: var(--whiteFixed);
+    border: 1px solid var(--brand1);
+    font-size: 14px;
+    content: "Seguindo";
+}
+
+.disableButton {
+    background-color: var(--grey4);
+    font-size: 14px;
+     color: var(--grey3);
+}
+
+.likeButton {
+    background-color: var(--grey-opacity-1);
+}
+
+.likeButton:active {
+    transition: 350ms;
+    background-color: var(--like);
+}
